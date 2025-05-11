@@ -534,7 +534,7 @@ performance_gp <- data.frame(
 )
 print(performance_gp)
 
-# Combine with your Sparse GP result
+# Combine with our Sparse GP result
 performance_all <- bind_rows(
   performance_gp,
   perf_pmm,
